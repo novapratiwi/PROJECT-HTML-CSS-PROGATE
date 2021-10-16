@@ -1,105 +1,73 @@
 * {
     box-sizing: border-box;
-  }
+    background-color:  #c7cec9;
+}
 
-.what-they-say {
-    height: 460px;
-    background-color: #2F3A29;
-    padding: 16px 0px;
+.main {
+    background-color: #485342;
+}
+
+.licence h1 {
+    color : #485342;
+    font-family: "Jacques Francois";
+    font-size:48px;
+    text-align: center;
     
 }
-.heading h2 {
-    color: white;
-    font-size: 48px;
-    font-weight: 400;
-    height: 38px;
-    font-family: "Jacques Francois";
+.content-item p {
+    font-family:"Jacques Francois";
+    font-size: 32px;
     text-align: center;
-    display: block;
-    letter-spacing: normal;
-    line-height: 38.4px;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
-    margin-bottom: 0px;
-    margin-top: 55px;
 }
-p {
-    color: white;
-    font-size: 14px;
-    font-family: "Lucida Sans Regular";
-    text-align: center;
-    padding-bottom: 16px;
-}
-.content {
-    height: 785px;
-    background-color: #DBE2DD;
-    padding: 16px 0px;
-    margin-top: 100px;
-}
-h2 {
-    color: #485342;
-    font-size: 48px;
-    font-family: "Jacques Francois";
-    text-align: center;
-    font-weight: 400;
-    height: 38px;
-    font-style: normal;
-    display: block;
-    letter-spacing: normal;
-    line-height: 38.4px;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
-    margin-bottom: 0px;
-    margin-top: 55px;
-    position: center;
-}
-.responsive img {
+
+.content-item {
+    float: left;
+    margin-right: 200px;
+    margin-left: 63px;
     padding: 80px 16px;
-    margin-left: 15px;
-    margin-right: 5px;
     max-width: 100%;
     height: 100%;
     position: center;
 }
-.button {
-    color: rgb(0,0,0);
-    text-align: center;
-    margin:0 auto;
-    max-width: 100%;
-    padding: auto;
+
+
+
+.content-item button {
     background-color: #DBE2DD;
-    position: center;
+    color: #485342;
+    height: 35px; 
+    width: 150px;
+    
 }
 
-.item {
-    width: 25%;
-    float: left;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
 @media (max-width: 1000px) {
-    h2 {
-        color: rgb(26, 26, 26);
+
+    h1 {
+        color: rgb(90, 107, 79); 
     }
-    .item {
+    .content-item {
         width: 50%;
     }
-    .img {
-        width: 100%;
+    .button {
+        width: 50%;
     }
+    .content-item p {
+        width:50%;
+   }
 }
 
 @media (max-width: 670px) {
-    .item {
-        width: 100%;
+    h1 {
+        color: rgb(90, 107, 79); 
     }
-    .img {
-        width: 100%;
+    .content-item {
+        width: 50%;
     }
-    .container {
-        width: 100%;
-        padding: 0 15px;
-        margin: 0 auto;
+    .button {
+        width: 50%;
     }
+    .content-item p {
+        width:50%;
+   }
 }
+
