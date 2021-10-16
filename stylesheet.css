@@ -121,6 +121,11 @@ span{
   height: 500px;
   background-color: #2F3A29;
   padding: 16px 0px;
+  text-align: center;
+}
+
+.heading{
+  padding-left: 350px;
 }
 
 .heading h1 {
@@ -130,7 +135,6 @@ span{
   height: 38px;
   font-family: "Jacques Francois";
   text-align: center;
-  display: block;
   letter-spacing: normal;
   line-height: 38.4px;
   margin-block-end: 0px;
@@ -353,3 +357,95 @@ footer p{
  }
 } */
 
+.container-header{
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  font-family: "Jacques Francois";
+  font-size: 15px;
+  float: left;
+  padding-top: 10px;
+  color: white;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  font-family: "Jacques Francois";
+  font-size: 14px;
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon{
+  color: white;
+  float: right;
+  display: none;
+}
+
+.main{
+  height: 800px;
+  background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/YD0zPnwVMki25lZE/front-m7VoJwB28ZFLB9VQ.png");
+  padding: 15% 40% 15% 5%;
+}
+
+.main h2{
+  font-family: "Jacques Francois";
+  font-size: 48px;
+  color: white
+}
+
+.main h1{
+  font-family: "Jacques Francois";
+  font-size: 100px;
+  color: white
+}
+
+.main p{
+  font-family: "poppins";
+  font-size: 18px;
+  color: white;
+}
+
+.main a{
+  margin-top: 20px;
+  padding: 5px;
+  font-family: "poppins semibold";
+  background-color: transparent;
+  font-size: 14px;
+  font-style: bold;
+  color: white;
+  width: 200px;
+  border: 3px solid white;
+  border-radius: 15px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
