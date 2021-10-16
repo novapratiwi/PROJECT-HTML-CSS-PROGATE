@@ -1,13 +1,64 @@
-@media all and (max-width: 1000px) {
-  
+@media (max-width: 1000px) {
+    .lesson {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+    .item {
+        width: 50%;
+    }
+    .heading h2 {
+        color: rgb(255, 255, 255);
+    }
+    h2 {
+        color: rgb(90, 107, 79); 
+    }
+    .content-item {
+        width: 50%;
+    }
+    .button {
+        width: 50%;
+    }
+    .top-wrapper h2 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
 }
 
-@media all and (max-width: 670px) {
-  .header-right {
-    display: none;
-  }
-  
-  .menu-icon {
-    display: block;
-  }
+@media (max-width: 670px) {
+    .lesson {
+        width: 100%;
+    }
+    .heading h2 {
+        color: rgb(255, 255, 255);
+    }
+    h2 {
+        color: rgb(90, 107, 79); 
+    }
+    .content-item {
+        width: 100%;
+    }
+    footer {
+        text-align: center;
+    }
+    .button {
+        width: 100%;
+    }
+    .top-wrapper {
+        text-align: left;
+    }
+    .top-wrapper h2 {
+        font-size: 14px;
+        line-height: 36px;
+    }
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .instagram {
+        margin-bottom: 10px;
+    }
 }

@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+  }
+
+.what-they-say {
+    height: 460px;
+    background-color: #2F3A29;
+    padding: 16px 0px;
+    
+}
+.heading h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 400;
+    height: 38px;
+    font-family: "Jacques Francois";
+    text-align: center;
+    display: block;
+    letter-spacing: normal;
+    line-height: 38.4px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-bottom: 0px;
+    margin-top: 55px;
+}
+p {
+    color: white;
+    font-size: 14px;
+    font-family: "Lucida Sans Regular";
+    text-align: center;
+    padding-bottom: 16px;
+}
+.content {
+    height: 785px;
+    background-color: #DBE2DD;
+    padding: 16px 0px;
+    margin-top: 100px;
+}
+h2 {
+    color: #485342;
+    font-size: 48px;
+    font-family: "Jacques Francois";
+    text-align: center;
+    font-weight: 400;
+    height: 38px;
+    font-style: normal;
+    display: block;
+    letter-spacing: normal;
+    line-height: 38.4px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-bottom: 0px;
+    margin-top: 55px;
+    position: center;
+}
+.responsive img {
+    padding: 80px 16px;
+    margin-left: 15px;
+    margin-right: 5px;
+    max-width: 100%;
+    height: 100%;
+    position: center;
+}
+.button {
+    color: rgb(0,0,0);
+    text-align: center;
+    margin:0 auto;
+    max-width: 100%;
+    padding: auto;
+    background-color: #DBE2DD;
+    position: center;
+}
+
+.item {
+    width: 25%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+@media (max-width: 1000px) {
+    h2 {
+        color: rgb(26, 26, 26);
+    }
+    .item {
+        width: 50%;
+    }
+    .img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 670px) {
+    .item {
+        width: 100%;
+    }
+    .img {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+}
