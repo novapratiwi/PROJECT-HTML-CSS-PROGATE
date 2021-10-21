@@ -178,6 +178,7 @@ span{
     text-decoration: none;
     text-align: center;
     height: 100%;
+    justify-content: center;
 }
 
 .subscribe {
