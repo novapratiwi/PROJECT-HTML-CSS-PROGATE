@@ -141,6 +141,7 @@ span{
     padding-bottom: 60px;
 }
 .content-item {
+    text-align: center;
     height: 100%;
     background-color: #DBE2DD;
     padding-top: 30px;
