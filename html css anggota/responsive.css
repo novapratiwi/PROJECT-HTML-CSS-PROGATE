@@ -71,7 +71,32 @@
   .heading h2 {
     font-size: 20px;
   }
-  
+    .what-they-say h1, p {
+        color: rgb(255, 255, 255);
+    }
+    .follow-us h2 {
+        color: rgb(90, 107, 79); 
+    }
+    .content-item {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .button {
+        width: 50%;
+        text-align: center;
+    }
+    .top-wrapper h1 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .top-wrapper h2 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
 }
 
 /* Untuk Smartphone */
@@ -157,4 +182,33 @@
     font-size: 14px;
     line-height: 20px;
   }
+  .what-they-say h1, p {
+        color: rgb(255, 255, 255);
+    }
+    .follow-us h2 {
+        color: rgb(90, 107, 79); 
+    }
+    .content-item {
+        width: 100%;
+    }
+    .button {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .top-wrapper {
+        text-align: center;
+    }
+    .top-wrapper h1 {
+        font-size: 14px;
+        line-height: 36px;
+    }
+    .top-wrapper h2 {
+        font-size: 14px;
+        line-height: 36px;
+        width: 100%;
+    }
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
 }
